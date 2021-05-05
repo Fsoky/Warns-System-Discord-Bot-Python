@@ -1,5 +1,5 @@
-# Warns-System-Discord-Bot-Python
-Source code from lesson
+# Warns System for Discord Bot
+Source code from [lesson](https://youtu.be/-hPVfjyDREA)
 
 ### Create database
 

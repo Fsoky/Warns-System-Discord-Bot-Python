@@ -3,7 +3,7 @@
 В папке [rewrite-disnake](https://github.com/Fsoky/Warns-System-Discord-Bot-Python/tree/main/rewrite-disnake), вы сможете найти новый переписанный код.
 
 ### Библиотеки 📚
-В исходнике: \
+В исходнике [source code](https://github.com/Fsoky/Warns-System-Discord-Bot-Python/tree/main/source%20code): \
 `discord.py` `pymongo`
 
 В переписанной версии [rewrite-disnake](https://github.com/Fsoky/Warns-System-Discord-Bot-Python/tree/main/rewrite-disnake): \

@@ -1,7 +1,7 @@
 import disnake
 from disnake.ext import commands
 
-from motor.motor_asyncio import AsyncIOClient
+from motor.motor_asyncio import AsyncIOMotorClient
 
 
 class Events(commands.Cog):
@@ -9,7 +9,7 @@ class Events(commands.Cog):
 	def __init__(self, bot):
 		self.bot = bot
 
-		self.cluster = AsyncIOClient("LINK")
+		self.cluster = AsyncIOMotorClient("LINK")
 		self.collusers = self.cluster.DATABASE_NAME.COLLECTION_NAME
 		self.collservers = self.cluster.DATABASE_NAME.COLLECTION_NAME
 
